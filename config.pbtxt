@@ -10,17 +10,17 @@
   ]
   output [
     {
-      name: "output_1"
+      name: "yaw_new"
       data_type: TYPE_FP32
       dims: [ 1, 120 ]
     },
     {
-      name: "output_2"
+      name: "pitch_new"
       data_type: TYPE_FP32
       dims: [ 1, 66 ]
     },
     {
-      name: "output_3"
+      name: "roll_new"
       data_type: TYPE_FP32
       dims: [ 1, 66 ]
     }
