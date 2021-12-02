@@ -3,24 +3,24 @@
   max_batch_size: 8
   input [
     {
-      name: "INPUT__0"
+      name: "input_1"
       data_type: TYPE_FP32
       dims: [ 224, 224, 3 ]
     }
   ]
   output [
     {
-      name: "OUTPUT__0"
+      name: "output_1"
       data_type: TYPE_FP32
       dims: [ 1, 120 ]
     },
     {
-      name: "OUTPUT__1"
+      name: "output_2"
       data_type: TYPE_FP32
       dims: [ 1, 66 ]
     },
     {
-      name: "OUTPUT__2"
+      name: "output_3"
       data_type: TYPE_FP32
       dims: [ 1, 66 ]
     }
