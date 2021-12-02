@@ -25,3 +25,5 @@
       dims: [ 66 ]
     }
   ]
+  
+  instance_group [{ kind: KIND_CPU }]
